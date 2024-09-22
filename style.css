@@ -1,0 +1,430 @@
+
+
+.head {
+	background:url(img/headerbg.jpg);
+	font-family: sans-serif;
+	margin: 0;
+	color: black;
+	text-align: center;
+	align-content: center;
+	padding: 10px;
+	animation-name: head;
+	animation-duration: 1.5s;
+	position: relative;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+@keyframes head {
+	0% {top: -200px; opacity: 0;}
+	100% {top: 0px; opacity: 1;}
+}
+
+
+/*navbar*/
+
+.nav {
+	background: maroon;
+	margin:5px 0;
+	border: 20px solid maroon;
+	padding-bottom: 20px;
+	position: relative;
+	animation-name: nav;
+	animation-duration: 1.5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+@keyframes nav {
+	0% { left: -2000px; opacity: 0}
+	100% { left: 0px; opacity: 1 }																					
+}
+
+.links {
+	font-size: 20px;
+	color: #fff;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	transition-property: all;
+	transition-duration: 0.3s;
+}
+.links:hover {
+	font-size: 21px;
+	color: ;
+	text-decoration: none;
+	overflow: hidden;
+	padding-right: 30px;
+	padding-left: 30px;
+	
+}
+
+/*search box*/
+
+.search-box {
+	position: absolute;
+	top: 100px;
+	left: 1050px;
+	background-color: #2b2d2f;
+	transform: translate(-50%,-50%);
+	height: 25px;
+	border-radius: 25px;
+	padding: 5px;
+	animation-name: nav;
+}
+
+.search-btn {
+	float: right;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:white;
+	transform: 0.4s;
+
+}
+.search-txt {
+	background: none;
+	border: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 20px;
+	width: 240px;
+
+
+
+}
+
+
+/*intro*/
+
+.intro {
+	background-image: url(img/introbg.jpg);
+	background-size: 100%;
+	color: black;
+	padding:1px 15px;
+	font-family: cursive;
+	font-size: 20px;
+	line-height: 1.2em; 
+	letter-spacing: 0.4px;
+	text-align: center;
+	position: relative;
+	animation-name: intro;
+	animation-duration: 1.5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+@keyframes intro {
+	0% {right: -2000px; opacity: 0}
+	100% {right: 0px; opacity: 1}
+}
+
+.intro strong:hover{
+	color:maroon;
+}
+
+/*social*/
+
+.social{
+	font-family: cursive;
+	float: left;
+	width: 48%;
+	margin-left: 10px;
+	position: relative;
+	animation-name: social;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@keyframes social {
+	0% { bottom: -100px; opacity: 0 }
+	100% { bottom: 0px; opacity: 1 }
+}
+.social a{
+	
+	color: red;
+	text-decoration: none; 
+	font-size: 16px;
+	line-height: 0.2em;
+	transition-property: all;
+	transition-duration: 0.3s;
+}
+
+.social a:hover {
+	color: green;
+	text-decoration: none;
+	font-size: 17px;
+
+}
+
+/*Contact*/
+
+.contact {
+
+	font-family: cursive;
+	float: right;
+	width: 48%;
+	position: relative;
+	animation-name: contact;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+@keyframes contact {
+	0% { bottom: -100px; opacity: 0 }
+	100% { bottom: 0px; opacity: 1 }
+}
+
+/*photography*/
+
+.photography {
+	float: left;
+	width: 48%;
+	box-sizing: border-box;
+	font-family: cursive;
+	margin-left: 10px;
+	position: relative;
+	animation-name: photography;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+@keyframes photography {
+	0% { top: -100px; opacity: 0 }
+	100% { top: 0px; opacity: 1 }
+}
+
+.photography a{
+	color: red;
+	text-decoration: none;
+	transition-property: all;
+	transition-duration: 0.3s;
+}
+.photography a:hover {
+	color:green;
+	text-decoration: none;
+}
+
+/*About me*/
+.aboutme {
+	float: right;
+	width: 48%;
+	box-sizing: border-box;
+	font-family: cursive;
+	position: relative;
+	animation-name: aboutme;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+@keyframes aboutme {
+	0% { top: -100px; opacity: 0 }
+	100% { top: 0px; opacity: 1 }
+}
+
+
+.aboutme a{
+	color: red;
+	text-decoration: none;
+	transition-property: all;
+	transition-duration: 0.3s;
+}
+.aboutme a:hover{
+	color: green;
+	text-decoration: none;
+}
+
+
+/*footer*/
+
+
+.footer {
+	background: grey;
+	width: 100%;
+	padding: 10px 0;
+	position: relative;
+	opacity: 0;
+	animation-name: footer;
+	animation-duration: 1.5s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes footer {
+	0% { bottom: -200px; opacity: 0 }
+	100% { bottom: 0px; opacity: 1 }
+}
+
+.social-links{
+	display: flex;
+	
+}
+.social-links ul{
+	display: flex;
+	list-style: none;
+}
+.social-links li{
+	padding: 0;
+	width: 150px;
+	color:cyan;
+}
+.icon {
+	color:cyan;
+	size: 20px;
+}
+
+
+.footer-nav ul{
+	display: flex;
+	list-style: none;
+	text-align: center;
+}
+.footer-nav a{
+	color:white;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	text-decoration: none;
+	font-family: sans-serif;
+	position: relative;
+	transition-property: all;
+	transition-duration: 0.3s;
+
+}
+
+.footer-nav a:hover{
+	color:white;
+	padding: 10px;
+	text-align: center;
+	font-size: 19px;
+	text-decoration: none;
+	font-family: sans-serif;
+
+}
+.copyright {
+	background:#2b2d2f;
+	padding: 5px;
+	position: relative;
+}
+.copyright p{
+	font-size: 14px;
+	font-family: sans-serif;
+	text-align: center;
+	color:white;
+	transition-property: all;
+	transition-duration: 0.3s;
+}
+.copyright p:hover{
+	font-size: 14px;
+	font-family: sans-serif;
+	text-align: center;
+	color:yellow;
+}
+
+
+/*photography Page*/
+
+.container{
+	max-width: 100%;
+	margin-top: 5px;
+	background: #f2f2f2;
+	overflow: auto;
+	box-sizing: border-box;
+
+}
+.container h3 {
+	font-family: cursive;
+	text-align: center;
+	position: relative;
+	opacity: 0;
+	animation-name: hhh;
+	animation-duration: 1s;
+	animation-delay: 1.5s;
+	animation-fill-mode: forwards;
+
+}
+@keyframes hhh {
+	0% { top: -30px; opacity: 0 }
+	100% { top: 0px; opacity: 1 }
+}
+.photos {
+	margin: 20px 5px;
+	border: 2px solid #ccc;
+	float: left;
+	width: 31%;
+	box-sizing: border-box;
+	position: relative;
+	opacity: 0;
+	animation-name: photos;
+	animation-duration: 1s;
+	animation-delay: 1.5s;
+	animation-fill-mode: forwards;
+}
+@keyframes photos {
+	0% { top: -30px; opacity: 0 }
+	100% { top: 0px; opacity: 1 }
+}
+.photos:hover {
+	margin: 20px 5px;
+	border: 2px solid green;
+	float: left;
+	width: 31%;								
+	box-sizing: border-box;
+	position: relative;
+
+
+}
+.photos img {
+	width: 100%;
+	height: auto;
+}
+/*.photos img:hover {
+	width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+	box-shadow: justify;
+}*/
+
+.desc {
+	padding: 2px;
+	text-align: center;
+	font-family: cursive;
+}
+
+/*About me Page*/
+.myinfo{
+	font-family: cursive;
+	text-align: center;
+	line-height: 0.4em;
+}
+
+
+/* Poetry Page*/
+
+.poem{
+	text-align: center;
+	color: #000;
+	font-family: cursive;
+	font-size: 24px;
+	opacity: 0;
+	position: relative;
+	animation-name: poem;
+	animation-duration: 1s;
+	animation-delay: 1.5s;
+	animation-fill-mode: forwards; 
+}
+@keyframes poem {
+	0% { top: -30px; opacity: 0 }
+	100% { top: 0px; opacity: 1 }
+}
